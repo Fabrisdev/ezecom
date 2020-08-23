@@ -1,0 +1,21 @@
+.title{
+    font-size: 100px;
+    text-align: center;
+}
+body{
+    background-image: url("../img/background.png");
+    background-attachment: fixed;
+}
+*{
+    color: white;
+    font-size: 30px;
+}
+p{
+    margin: 0 0 0 0;
+}
+#text{
+    background-color: tomato;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-family: "Alata", "sans-serif";
+}
