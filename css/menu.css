@@ -1,0 +1,46 @@
+.navegation{
+    width: 100%;
+    margin: auto;
+    background: cadetblue;
+    border-bottom: 3px solid black;
+}
+.navegation ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: "Alata", sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: yellowgreen;
+    transition: all 0.2s;
+}
+/* Submenu */
+.submenu{
+    position: absolute;
+    width: 153%;
+    background: cadetblue;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: "Alata", sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
